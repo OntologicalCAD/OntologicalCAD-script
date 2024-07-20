@@ -21,7 +21,8 @@ public class MainWindowController {
 
     @FXML
     void selection(ActionEvent event) {
-println "Box activated!"
+		println "Box activated!"
+		cb1.setText("Checked ")
     }
 
     @FXML // This method is called by the FXMLLoader when initialization is complete
