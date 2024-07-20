@@ -2,10 +2,10 @@ import eu.mihosoft.vrl.v3d.CSG
 println "Cadoodle Start Up";
 
 File xml = com.neuronrobotics.bowlerstudio.scripting.ScriptingEngine.fileFromGit(
-	"https://github.com/CommonWealthRobotics/CaDoodle-script.git", 
+	"https://github.com/OntologicalCAD/OntologicalCAD-script.git", 
 	"MainWindow.fxml")
 File icon = com.neuronrobotics.bowlerstudio.scripting.ScriptingEngine.fileFromGit(
-	"https://github.com/CommonWealthRobotics/CaDoodle-script.git", 
+	"https://github.com/OntologicalCAD/OntologicalCAD-script.git", 
 	"SourceIcon.png")
 
 class MainWindow extends javafx.scene.control.Tab implements com.neuronrobotics.bowlerstudio.IStageReceiver{
